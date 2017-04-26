@@ -50,7 +50,7 @@ hostname='127.0.0.1'
 def pub_Info(Info):
 
     msg=[{
-        'topic':"Environment",
+        'topic':"RaspberryPiInfo",
         'payload':json.dumps(Info),
         'qos':0,
         'retain':False
