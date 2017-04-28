@@ -97,4 +97,4 @@ if __name__ == '__main__':
         pub_Info(RaspberryPiInfo)
 
 
-        time.sleep(2)
+        time.sleep(5)

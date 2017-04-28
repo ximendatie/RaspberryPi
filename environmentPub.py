@@ -88,4 +88,4 @@ if __name__ == "__main__":
         else:
             print "wrong result\n"
             # print "temperature :", temperature, "*C, humidity :", humidity, "% check :", check, ", tmp :", tmp
-        time.sleep(2)
+        time.sleep(5)
