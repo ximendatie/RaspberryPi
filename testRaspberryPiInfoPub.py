@@ -65,35 +65,6 @@ def pub_Info(Info):
 if __name__ == '__main__':
 
     while True:
-
-        # # CPU informatiom
-        # CPU_temp = getCPUtemperature()
-        # CPU_usage = getCPUuse()
-         
-        # # RAM information
-        # # Output is in kb, here I convert it in Mb for readability
-        # RAM_stats = getRAMinfo()
-        # RAM_total = round(int(RAM_stats[0]) / 1000,1)
-        # RAM_used = round(int(RAM_stats[1]) / 1000,1)
-        # RAM_free = round(int(RAM_stats[2]) / 1000,1)
-         
-        # # Disk information
-        # DISK_stats = getDiskSpace()
-        # DISK_total = DISK_stats[0]
-        # DISK_used = DISK_stats[1]
-        # DISK_perc = DISK_stats[3]
-
-        # print('\n-------------------  RaspberryPiInfo.py  ------------------')
-        # print('CPU Temperature = '+CPU_temp)
-        # print('CPU Use = '+CPU_usage + '%')
-        # print('')
-        # print('RAM Total = '+str(RAM_total)+' MB')
-        # print('RAM Used = '+str(RAM_used)+' MB')
-        # print('RAM Free = '+str(RAM_free)+' MB')
-        # print('') 
-        # print('DISK Total Space = '+str(DISK_total)+'B')
-        # print('DISK Used Space = '+str(DISK_used)+'B')
-        # print('DISK Used Percentage = '+str(DISK_perc))
         
         RaspberryPiInfo = {"CPUTemperature":random.randint(30,80),"CPUUse":random.randint(10,100),"RAMUsed":random.randint(300,1000),"RAMFree":random.randint(300,800),"DiskTotal":1024,"DiskUsed":random.randint(500,800),"DiskUsedPercentage":random.randint(50,80)/100.0}
         pub_Info(RaspberryPiInfo)
